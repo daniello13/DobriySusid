@@ -1,0 +1,28 @@
+INSERT INTO regions_ua (`name`) VALUES ("Черкаська область");
+INSERT INTO regions_ua (`name`) VALUES ("Чернігівська область");
+INSERT INTO regions_ua (`name`) VALUES ("Чернівецька область");
+INSERT INTO regions_ua (`name`) VALUES ("Дніпропетровська область");
+INSERT INTO regions_ua (`name`) VALUES ("Донецька область");
+INSERT INTO regions_ua (`name`) VALUES ("Харківська область");
+INSERT INTO regions_ua (`name`) VALUES ("Херсонська область");
+INSERT INTO regions_ua (`name`) VALUES ("Хмельницька область");
+INSERT INTO regions_ua (`name`) VALUES ("Івано-Франківська область");
+INSERT INTO regions_ua (`name`) VALUES ("Кіровоградська область");
+INSERT INTO regions_ua (`name`) VALUES ("Крым область");
+INSERT INTO regions_ua (`name`) VALUES ("Київська область");
+INSERT INTO regions_ua (`name`) VALUES ("Луганська область");
+INSERT INTO regions_ua (`name`) VALUES ("Львівська область");
+INSERT INTO regions_ua (`name`) VALUES ("АР Крим область");
+INSERT INTO regions_ua (`name`) VALUES ("Київська область");
+INSERT INTO regions_ua (`name`) VALUES ("Миколаївська область");
+INSERT INTO regions_ua (`name`) VALUES ("Одеська область");
+INSERT INTO regions_ua (`name`) VALUES ("Полтавська область");
+INSERT INTO regions_ua (`name`) VALUES ("Рівненська область");
+INSERT INTO regions_ua (`name`) VALUES ("Сумська область");
+INSERT INTO regions_ua (`name`) VALUES ("Тернопільська область");
+INSERT INTO regions_ua (`name`) VALUES ("Вінницька область");
+INSERT INTO regions_ua (`name`) VALUES ("Волинська область");
+INSERT INTO regions_ua (`name`) VALUES ("Закарпатська область");
+INSERT INTO regions_ua (`name`) VALUES ("Запорізька область");
+INSERT INTO regions_ua (`name`) VALUES ("Житомирська область");
+
