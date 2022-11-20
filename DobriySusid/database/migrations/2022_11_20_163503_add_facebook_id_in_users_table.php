@@ -6,20 +6,15 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
+     /**
      * Run the migrations.
      *
      * @return void
      */
     public function up()
     {
-        //
-        Schema::create('sela_UA', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->integer('district');
-            $table->integer('region');
-            $table->timestamps();
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('facebook_id')->nullable();
         });
     }
 
@@ -30,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sela_UA');
+    Schema::table('users', function (Blueprint $table) {
+        $table->dropColumn('facebook_id');
+    });
     }
 };

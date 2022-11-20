@@ -37,4 +37,11 @@ return [
         'region' => env('GOOGLE_REDIRECT'),
     ],
 
+    'facebook' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'), //USE FROM FACEBOOK DEVELOPER ACCOUNT
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), //USE FROM FACEBOOK DEVELOPER ACCOUNT
+        'redirect' => 'https://dobriysusid.ms-studio.tk/facebook/callback/'
+    ],
+
+
 ];
